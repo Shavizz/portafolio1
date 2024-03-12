@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolios de Javier Sigcha</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--seccion del header Inicio-->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Logo-Shavi-1.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Ingeniero en Computación Gráfica</p>
+                <h1>Hi, I'm <span>Javier</span> Sigcha <br> From Ecuador</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--seccion del header Fin-->
+
+
+
+    <!--seccion del About Inicio-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Foto perfil.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="me">Soy Ingeniero en Computación Grafica, graduado de la Universidad Central del Ecuador, tengo conocimientos en diseño gráfico, programación web en especial "Front end Developer", Wix, Wordpress, Excel, apps y videojuegos, además de conocimientos en Multimedia, conocimientos intermedios de Marketing digital, publicidad Display, retargeting, marketing a través de correos electrónicos (SEO) y (SEM) en motores de busqueda, he estado en varios cursos gratuitos de estas áreas especializándome.  
+                    También soy una persona muy responsable, puntual, y colaboradora, dispuesto a aprender nuevas experiencias en esta área y adaptarme al entorno de trabajo.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Wordpress, Wix</span><br>Diseño de páginas web/Nivel Básico</li>
+                            <li><span>HTML, CSS</span><br>Nivel Intermedio</li>
+                            <li><span>Adobe Photohop, Illustrator, After Effects, Premier</span><br>Diseño Grafica y Multimedia/Nivel Intermedio</li>
+                            <li><span>JavaScript</span><br>Programación/Nivel Básico-Intermedio</li>
+                            <li><span>Java, C#</span><br>Programación/Nivel Básico-Intermedio</li>
+                            <li><span>Python, Sql, PHP</span><br>Programación/Nivel Básico</li>
+                            <li><span>Cinema 4D, Blender, Unity, Unreal</span><br>Nivel Intermedio</li>
+                            <li><span>Word, Excel, Power Point</span><br>Nivel Intermedio</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - 2022 "Coordinación de Comunicación FIGEMPA UCE"</span><br>Desarrollador de contenido Multimedia, así como: Videos publicitarios, infografías, logos, portadas de revistas digitales y pequeños Sketches, todo este contenido publicado en redes sociales y páginas web. Además de propuestas de páginas web en Wordpress y Wix</li>
+                            <li><span>2012 - 2013 "Consejo Nacional Electoral CNE"</span><br>Recolección y obtención de datos de la población de Quito</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013 - 2023 "Universidad"</span><br>"Universidad Central del Ecuador" Estudios terminados en la facultad de Ingeniería y Ciencias
+                                Aplicadas de la Universidad Central del Ecuador, obteniendo
+                                El titulo de Ingeniero en Computación Gráfica.
+                                </li>
+                            <li><span>2006 - 2012 "Educación Secundaria"</span><br>"Colegio Nacional Eloy Alfaro" Estudios terminados hasta Sexto curso obteniendo el título de
+                                CIENCIAS especialidad Físico Matemático.
+                                </li>
+                            <li><span>2000 - 2006 "Educación Primaria"</span><br>"Unidad Educativa Francis Bacon" Estudios terminados hasta Séptimo de básica</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--seccion del About Fin-->
+
+
+
+
+    <!--seccion del Services Inicio-->
+
+    <div id="servces">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Diseño Web</h2>
+                    <h3>"Front end Developer"</h3>
+                    <p>Tengo conocimientos intermedios en HTML y CSS además de conocimientos básicos en JavaScript, para el desarrollo de paginas web especialmente en el área de Front end Developer, aun continuo aprendiendo en esta área. </p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Diseño Gráfica</h2>
+                    <h3>"Diseñador Gráfica"</h3>
+                    <p>Tengo conocimientos intermedios y manejo bastante bien las herramientas de Photoshop para corrección de fotos, luces, diseño de poster, publicidad, gifs, efectos para videos, montajes, infografías he Illustrator para el diseño de logos, tripticos, piezas de diseño, gafetes, tarjetas etc, tanto para medios impresos como digitales para redes sociales.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-photo-film"></i>
+                    <h2>Contenido Multimedia</h2>
+                    <h3>"Diseñador de Videos"</h3>
+                    <p>Tengo conocimientos intermedios y manejo bastante bien las herramientas de Premiere y After Effects para la elaboración de videos, publicitarios, marketing digital y redes sociales.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--seccion del Services Fin-->
+
+    <!--seccion del Portafolios Inicio -->
+
+    <div id="portafolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/Poster.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Poster</h3>
+                        <p>Diseño realizado en Photoshop para poster y medios impresos</p>
+                        <!--<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>-->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Live is life.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Redes Sociales</h3>
+                        <p>Diseño realizado en Photoshop para medios digitales como redes sociales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Bailarina.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Diseño realizado en Photoshop aplicando color, efectos para medios digitales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/3D.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico 3D</h3>
+                        <p>Diseño realizado en Photoshop efcto 3D para medios digitales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/casa_lago_Oleo.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico </h3>
+                        <p>Diseño realizado en Photoshop efcto fuego, luces, cambio de ambiente</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/propuesta 1.png" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Logo</h3>
+                        <p>Diseño de prpouesta realizado en Photoshop he Illustrator para redes sociales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Retoque de cabello.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Retoque</h3>
+                        <p>Retoque de fotografía realizada en Photoshop especialmente retoque en el cabello</p>
+                    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Rostro fantastico.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Diseño realizado en Photoshop para medios digitales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Shadow.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Diseño realizado en Photoshop para medios digitales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Web.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Portada</h3>
+                        <p>Diseño realizado en Photoshop para portadas de revistas</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Sticker-animado.gif" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Gifs animados</h3>
+                        <p>Diseño realizado en Illustrator gifs animados para redes sociales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Poster_Coca-1.png" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Diseño realizado en Illustrator para marketing digital</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Caricatura.png" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Caricatura</h3>
+                        <p>Diseño realizado en Illustrator para marketing digital</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/Regalo-efecto de vidrios.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Diseño realizado en Photoshop efecto de cristales</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/virgen_correcion-final.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico Reparacion</h3>
+                        <p>Reparación de Fotografías</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/virgen_Final.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Diseño Grafico</h3>
+                        <p>Repración de Forografías</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://sites.google.com/view/portafolios-javier/inicio?fbclid=IwAR1fVlrOKs566P9aU7P7By4RaXUp63gHFE54K7Q_xGCUywUs4DQF0imHe0Q" target="_blank" class="btn">See more </a>
+        </div>
+    </div>
+
+
+    <!--seccion del Portafolios Fin-->
+
+
+    <!--seccion del Contact Inicio -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> javikennedy@hotmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 0961333702</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/javier-sigcha-echeverria-a43511267/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/javier.sigcha.3" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+
+                    <a href="img/HV-Javier-Sigcha.pdf" download class="btn btn2 ">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class=" btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @Javi. Made width <i class="fa-solid fa-heart"></i> by Shavi</p>
+        </div>
+
+    </div>
+
+
+
+
+    <!--seccion del Contact Fin -->
+
+
+
+<!--Inicio de Scripts-->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+
+
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5f5rZWI3813LhNiw9La19yeId1mu9Cjup1HAFyHx3B_DD2zzJjy8aOR_N5pitqx4/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent seccessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!--<script>
+        var header = document.getElementById('header')
+
+        window.addEventListener('scroll', ()=>{
+            var scroll = window.scrollY
+            if(scroll>10){
+                header.style.backgroundColor ='#121212'
+            }
+            else{
+                header.style.backgroundColor ='transparent'
+            }
+        })
+    </script>-->
+
+
+    <!--Fin de Scripts-->
+</body>
+</html>
